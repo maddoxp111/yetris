@@ -1,0 +1,25 @@
+{
+  "skins": {
+    "I": "https://example.com/college_dropout.jpg",
+    "J": "https://example.com/late_registration.jpg",
+    "L": "https://example.com/graduation.jpg",
+    "O": "https://example.com/808s.jpg",
+    "S": "https://example.com/mbdtf.jpg",
+    "T": "https://example.com/yeezus.jpg",
+    "Z": "https://example.com/tlop.jpg"
+  },
+  "sfx": {
+    "spawn": "https://example.com/sfx/spawn.mp3",
+    "move": "https://example.com/sfx/move.mp3",
+    "rotate": "https://example.com/sfx/rotate.mp3",
+    "soft": "https://example.com/sfx/soft_drop.mp3",
+    "hard": "https://example.com/sfx/hard_drop.mp3",
+    "lock": "https://example.com/sfx/lock.mp3",
+    "line": "https://example.com/sfx/line.mp3",
+    "level": "https://example.com/sfx/level.mp3",
+    "start": "https://example.com/sfx/start.mp3",
+    "pause": "https://example.com/sfx/pause.mp3",
+    "reset": "https://example.com/sfx/reset.mp3"
+  },
+  "notes": "Host your images/SFX somewhere with CORS enabled (GitHub Pages, Cloudflare R2, S3, etc.)."
+}

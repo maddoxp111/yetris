@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+  <title>Yetris</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Matter.js via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/matter-js@0.20.0/build/matter.min.js"></script>
+  <!-- Firebase (optional) -->
+  <script defer src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
+  <script defer src="https://www.gstatic.com/firebasejs/10.12.5/firebase-database-compat.js"></script>
+  <script defer src="src/config.js"></script>
+  <script defer src="src/leaderboard.js"></script>
+  <script type="module" src="src/voicy_scraper.js"></script>
+  <script defer src="src/sfx.js"></script>
+  <script defer src="src/controls.js"></script>
+  <script defer src="src/game.js"></script>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Yetris</h1>
+      <div class="status">
+        <div>Score: <span id="score">0</span></div>
+        <div>Lines: <span id="lines">0</span></div>
+        <div>Level: <span id="level">1</span></div>
+      </div>
+    </header>
+
+    <main>
+      <canvas id="game"></canvas>
+      <aside id="sidebar">
+        <section id="leaderboardSection">
+          <h2>Leaderboard</h2>
+          <div id="namePrompt" class="row">
+            <input id="playerName" placeholder="your name" maxlength="20"/>
+            <button id="saveName">Save</button>
+          </div>
+          <ol id="leaderboard"></ol>
+          <div class="hint">Live updates. Ties break by earliest.</div>
+        </section>
+
+        <section>
+          <h3>Controls</h3>
+          <ul class="controls">
+            <li>◄ / ► : Move</li>
+            <li>▲ : Rotate</li>
+            <li>▼ : Soft drop</li>
+            <li>Space : Hard drop</li>
+            <li>Tap/Swipe on mobile</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Skins</h3>
+          <p>Blocks use Kanye album covers. Drop 7 image files into <code>assets/images/</code> with these names:</p>
+          <ul class="skins">
+            <li>college_dropout.jpg</li>
+            <li>late_registration.jpg</li>
+            <li>graduation.jpg</li>
+            <li>808s.jpg</li>
+            <li>mbdtf.jpg</li>
+            <li>yeezus.jpg</li>
+            <li>tlop.jpg</li>
+          </ul>
+          <p>Don’t have them? We’ll auto-fallback to colors.</p>
+        </section>
+      </aside>
+    </main>
+
+    <footer>
+      <button id="btnStart">Start</button>
+      <button id="btnPause">Pause</button>
+      <button id="btnReset">Reset</button>
+      <div id="mobileControls">
+        <button data-act="left">◄</button>
+        <button data-act="rotate">⟳</button>
+        <button data-act="right">►</button>
+        <button data-act="drop">▼</button>
+        <button data-act="hard">⤓</button>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

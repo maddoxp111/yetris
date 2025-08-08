@@ -1,0 +1,24 @@
+{
+  "skins": {
+    "I": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Kanyewest_collegedropout.jpg/512px-Kanyewest_collegedropout.jpg",
+    "J": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Late_registration_cd_cover.jpg/512px-Late_registration_cd_cover.jpg",
+    "L": "https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Graduation_%28album%29.jpg/512px-Graduation_%28album%29.jpg",
+    "O": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/808s_%26_Heartbreak.png/512px-808s_%26_Heartbreak.png",
+    "S": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Kanye_West_My_Beautiful_Dark_Twisted_Fantasy_album_cover.png/512px-Kanye_West_My_Beautiful_Dark_Twisted_Fantasy_album_cover.png",
+    "T": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Yeezus_album_cover.png/512px-Yeezus_album_cover.png",
+    "Z": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/The_life_of_pablo_alternate.jpg/512px-The_life_of_pablo_alternate.jpg"
+  },
+  "sfx": {
+    "spawn": "https://www.voicy.network/sounds/Xge8tHYb10eBaZFbVl1MfA-kanye-west-yo",
+    "move": "https://www.voicy.network/sounds/40hnYzS_T0aePSrVgYWgnA-kanye-west-kanye",
+    "rotate": "https://www.voicy.network/sounds/2tkj7-VElEWiN8iyQCJ7xA-kanye-west-humble-opinion",
+    "soft": "https://www.voicy.network/sounds/-x-ZxSLmMke-wm1y2iZ9fA-kanye-west-opinion",
+    "hard": "https://www.voicy.network/sounds/YMzXiLgLukqwbizVN7A63Q-kanye-west-stop-talking",
+    "lock": "https://www.voicy.network/sounds/sU79Dhx8hkS_fMYRqZONVw-kanye-west-right-to-talk",
+    "line": "https://www.voicy.network/sounds/VkVjWpkKUEq1OQ9pkuHGSQ-kanye-west-do-music",
+    "level": "https://www.voicy.network/sounds/cg7UrwjJxUuqJr5tWXMsDQ-kanye-west-yo-2",
+    "start": "https://www.voicy.network/sounds/2tkj7-VElEWiN8iyQCJ7xA-kanye-west-humble-opinion",
+    "pause": "https://www.voicy.network/sounds/iWmLif5Bl06PXWfdtiHvig-kanye-west-need-to-stop",
+    "reset": "https://www.voicy.network/sounds/40hnYzS_T0aePSrVgYWgnA-kanye-west-kanye"
+  }
+}
